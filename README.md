@@ -3,7 +3,7 @@ It's a CRUD demo for Mongoskin with Mocha testing.
 
 I perform a "Book" model for this sample, in the following is a sample document 
 
-```json
+```js
 {
       name: "Book Name",
       price: 10,
