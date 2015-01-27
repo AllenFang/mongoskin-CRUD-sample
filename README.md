@@ -1,7 +1,20 @@
 # mongoskin-CRUD-sample
 It's a CRUD demo for Mongoskin with Mocha testing.
 
-I perform a "Book" model for this sample, in the following is a sample document 
+### Install
+
+```bash
+$ git clone https://github.com/AllenFang/mongoskin-CRUD-sample.git
+$ cd mongoskin-CRUD-sample
+$ npm install
+```
+After installation, you can modify the db.js to match your MongoDB connection url
+
+### Run
+```bash
+$ npm test
+```
+This example perform a "Book" model for this sample, in the following is a sample document 
 
 ```js
 {
@@ -17,18 +30,4 @@ I perform a "Book" model for this sample, in the following is a sample document
         {name: "Allen", mail: "allen@mail.com"}
       ]
 }
-```
-
-### Install
-
-```bash
-$ git clone https://github.com/AllenFang/mongoskin-CRUD-sample.git
-$ cd mongoskin-CRUD-sample
-$ npm install
-```
-After installation, you can modify the db.js to match your MongoDB connection url
-
-### Run
-```bash
-$ npm test
 ```
