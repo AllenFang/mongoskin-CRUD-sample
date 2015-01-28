@@ -14,7 +14,7 @@ After installation, you can modify the db.js to match your MongoDB connection ur
 ```bash
 $ npm test
 ```
-This example perform a "Book" model for this sample, in the following is a sample document 
+This example perform a "Book" model, in the following is a Book document 
 
 ```js
 {
