@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "It's a CRUD sample for mongoskin with Mocha.",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha ./test/book.js"
+    "test": "mocha ./test/book.js"
   },
   "author": "AllenFang",
   "license": "ISC",
